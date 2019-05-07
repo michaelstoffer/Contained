@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDh-Oy-wQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45" y="544"/>
+            <point key="canvasLocation" x="-4" y="500"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="ced-Iz-d8f">
@@ -103,7 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vA2-sb-a8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="419" y="1209"/>
+            <point key="canvasLocation" x="419" y="1195"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="bVD-bz-YLg">
@@ -139,7 +139,7 @@ the crab</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g1H-3g-52X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1278" y="1209"/>
+            <point key="canvasLocation" x="1277" y="1195"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="N5U-WU-42S">
@@ -173,7 +173,7 @@ the crab</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sK1-bp-FJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2170" y="1209"/>
+            <point key="canvasLocation" x="2170" y="1195"/>
         </scene>
         <!--Play-->
         <scene sceneID="OKg-GA-AsV">
@@ -182,14 +182,28 @@ the crab</string>
                     <view key="view" contentMode="scaleToFill" id="G32-26-98n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HL0-SC-uCT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </skView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HL0-SC-uCT" firstAttribute="top" secondItem="iBG-K8-jhF" secondAttribute="top" id="8Np-eT-Q6c"/>
+                            <constraint firstItem="iBG-K8-jhF" firstAttribute="bottom" secondItem="HL0-SC-uCT" secondAttribute="bottom" id="8gX-dn-Mtv"/>
+                            <constraint firstItem="iBG-K8-jhF" firstAttribute="trailing" secondItem="HL0-SC-uCT" secondAttribute="trailing" id="KqK-TP-SCQ"/>
+                            <constraint firstItem="HL0-SC-uCT" firstAttribute="leading" secondItem="iBG-K8-jhF" secondAttribute="leading" id="uet-an-vFv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iBG-K8-jhF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Play" image="game_controller" id="Ye0-uc-aZK"/>
+                    <connections>
+                        <outlet property="skview" destination="HL0-SC-uCT" id="mEA-Fk-L3i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xzw-yz-tbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-935" y="544"/>
+            <point key="canvasLocation" x="-872" y="500"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Gqk-K3-AzG">
@@ -201,8 +215,8 @@ the crab</string>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ugc-Ks-Kag" kind="relationship" relationship="viewControllers" id="P39-Vi-adt"/>
                         <segue destination="QIl-gZ-47L" kind="relationship" relationship="viewControllers" id="a8s-lG-tnM"/>
+                        <segue destination="ugc-Ks-Kag" kind="relationship" relationship="viewControllers" id="P39-Vi-adt"/>
                         <segue destination="S3m-c5-2ei" kind="relationship" relationship="viewControllers" id="0ZO-iU-Q9Q"/>
                     </connections>
                 </tabBarController>
@@ -227,7 +241,7 @@ the crab</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSv-iG-YtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="1210"/>
+            <point key="canvasLocation" x="-442" y="1195"/>
         </scene>
     </scenes>
     <resources>
