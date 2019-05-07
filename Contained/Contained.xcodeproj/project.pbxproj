@@ -15,6 +15,7 @@
 		D608EA5F22822B4300BC243A /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA5E22822B4300BC243A /* SKSpriteNode+Utility.swift */; };
 		D608EA6622823A7600BC243A /* Questions.md in Resources */ = {isa = PBXBuildFile; fileRef = D608EA6522823A7600BC243A /* Questions.md */; };
 		D608EA6822823AA700BC243A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D608EA6722823AA600BC243A /* README.md */; };
+		D608EA6A22823BC200BC243A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA6922823BC200BC243A /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D608EA5E22822B4300BC243A /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
 		D608EA6522823A7600BC243A /* Questions.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Questions.md; sourceTree = "<group>"; };
 		D608EA6722823AA600BC243A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D608EA6922823BC200BC243A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		D608EA6422822B7C00BC243A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D608EA6922823BC200BC243A /* Settings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D608EA6A22823BC200BC243A /* Settings.swift in Sources */,
 				D608EA5F22822B4300BC243A /* SKSpriteNode+Utility.swift in Sources */,
 				D608EA4B22822A6C00BC243A /* AppDelegate.swift in Sources */,
 			);
