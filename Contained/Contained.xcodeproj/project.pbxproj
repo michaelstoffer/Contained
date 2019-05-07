@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		D608EA4B22822A6C00BC243A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA4A22822A6C00BC243A /* AppDelegate.swift */; };
-		D608EA4D22822A6C00BC243A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA4C22822A6C00BC243A /* ViewController.swift */; };
 		D608EA5022822A6C00BC243A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608EA4E22822A6C00BC243A /* Main.storyboard */; };
 		D608EA5222822A6C00BC243A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D608EA5122822A6C00BC243A /* Assets.xcassets */; };
 		D608EA5522822A6C00BC243A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608EA5322822A6C00BC243A /* LaunchScreen.storyboard */; };
 		D608EA5D22822B2900BC243A /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D608EA5C22822B2900BC243A /* Crab.xcassets */; };
 		D608EA5F22822B4300BC243A /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA5E22822B4300BC243A /* SKSpriteNode+Utility.swift */; };
+		D608EA6622823A7600BC243A /* Questions.md in Resources */ = {isa = PBXBuildFile; fileRef = D608EA6522823A7600BC243A /* Questions.md */; };
+		D608EA6822823AA700BC243A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D608EA6722823AA600BC243A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D608EA4722822A6C00BC243A /* Contained.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contained.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D608EA4A22822A6C00BC243A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D608EA4C22822A6C00BC243A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D608EA4F22822A6C00BC243A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D608EA5122822A6C00BC243A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D608EA5422822A6C00BC243A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D608EA5622822A6C00BC243A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D608EA5C22822B2900BC243A /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Crab.xcassets; sourceTree = "<group>"; };
 		D608EA5E22822B4300BC243A /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		D608EA6522823A7600BC243A /* Questions.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Questions.md; sourceTree = "<group>"; };
+		D608EA6722823AA600BC243A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,8 @@
 		D608EA3E22822A6C00BC243A = {
 			isa = PBXGroup;
 			children = (
+				D608EA6722823AA600BC243A /* README.md */,
+				D608EA6522823A7600BC243A /* Questions.md */,
 				D608EA4922822A6C00BC243A /* Contained */,
 				D608EA4822822A6C00BC243A /* Products */,
 			);
@@ -63,6 +67,7 @@
 				D608EA6222822B6500BC243A /* View Controllers */,
 				D608EA6122822B5C00BC243A /* Storyboards */,
 				D608EA6022822B5400BC243A /* Resources */,
+				D608EA5E22822B4300BC243A /* SKSpriteNode+Utility.swift */,
 			);
 			path = Contained;
 			sourceTree = "<group>";
@@ -70,7 +75,6 @@
 		D608EA6022822B5400BC243A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D608EA5E22822B4300BC243A /* SKSpriteNode+Utility.swift */,
 				D608EA5C22822B2900BC243A /* Crab.xcassets */,
 				D608EA4A22822A6C00BC243A /* AppDelegate.swift */,
 				D608EA5122822A6C00BC243A /* Assets.xcassets */,
@@ -91,7 +95,6 @@
 		D608EA6222822B6500BC243A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D608EA4C22822A6C00BC243A /* ViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -168,8 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D608EA6822823AA700BC243A /* README.md in Resources */,
 				D608EA5522822A6C00BC243A /* LaunchScreen.storyboard in Resources */,
 				D608EA5D22822B2900BC243A /* Crab.xcassets in Resources */,
+				D608EA6622823A7600BC243A /* Questions.md in Resources */,
 				D608EA5222822A6C00BC243A /* Assets.xcassets in Resources */,
 				D608EA5022822A6C00BC243A /* Main.storyboard in Resources */,
 			);
@@ -183,7 +188,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D608EA5F22822B4300BC243A /* SKSpriteNode+Utility.swift in Sources */,
-				D608EA4D22822A6C00BC243A /* ViewController.swift in Sources */,
 				D608EA4B22822A6C00BC243A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
