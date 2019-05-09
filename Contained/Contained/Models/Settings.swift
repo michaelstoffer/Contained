@@ -12,6 +12,8 @@ class Settings {
     static let shared = Settings()
     private init() {}
     
+    var happyWaiting = false
     var shouldRoll = false
     var shouldZoom = false
+    var shouldFade = false
 }

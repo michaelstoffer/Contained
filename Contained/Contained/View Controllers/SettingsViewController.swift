@@ -9,9 +9,12 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBAction func toggleHappyWaiting(_ sender: UISwitch) {
+        if sender.isOn {
+            Settings.shared.happyWaiting = true
+        } else {
+            Settings.shared.happyWaiting = false
+        }
     }
     
     @IBAction func toggleRoll(_ sender: UISwitch) {
@@ -27,6 +30,14 @@ class SettingsViewController: UIViewController {
             Settings.shared.shouldZoom = true
         } else {
             Settings.shared.shouldZoom = false
+        }
+    }
+    
+    @IBAction func toggleFade(_ sender: UISwitch) {
+        if sender.isOn {
+            Settings.shared.shouldFade = true
+        } else {
+            Settings.shared.shouldFade = false
         }
     }
 }
