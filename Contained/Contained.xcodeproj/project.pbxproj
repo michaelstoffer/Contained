@@ -20,6 +20,9 @@
 		D608EA6E22823EB200BC243A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA6D22823EB200BC243A /* InfoViewController.swift */; };
 		D608EA7022823EBC00BC243A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA6F22823EBC00BC243A /* SettingsViewController.swift */; };
 		D608EA72228249FF00BC243A /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EA71228249FF00BC243A /* CustomScene.swift */; };
+		D66BE87E2283D05900EB6E92 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66BE87C2283D05900EB6E92 /* Game.storyboard */; };
+		D66BE8802283D07800EB6E92 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66BE87F2283D07800EB6E92 /* Settings.storyboard */; };
+		D66BE8822283D0A500EB6E92 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66BE8812283D0A500EB6E92 /* Info.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		D608EA6D22823EB200BC243A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		D608EA6F22823EBC00BC243A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D608EA71228249FF00BC243A /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
+		D66BE87D2283D05900EB6E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Contained/Storyboards/Base.lproj/Game.storyboard; sourceTree = "<group>"; };
+		D66BE87F2283D07800EB6E92 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		D66BE8812283D0A500EB6E92 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,9 @@
 		D608EA6122822B5C00BC243A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				D66BE8812283D0A500EB6E92 /* Info.storyboard */,
+				D66BE87F2283D07800EB6E92 /* Settings.storyboard */,
+				D66BE87C2283D05900EB6E92 /* Game.storyboard */,
 				D608EA4E22822A6C00BC243A /* Main.storyboard */,
 				D608EA5322822A6C00BC243A /* LaunchScreen.storyboard */,
 			);
@@ -186,8 +195,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66BE8822283D0A500EB6E92 /* Info.storyboard in Resources */,
 				D608EA6822823AA700BC243A /* README.md in Resources */,
 				D608EA5522822A6C00BC243A /* LaunchScreen.storyboard in Resources */,
+				D66BE87E2283D05900EB6E92 /* Game.storyboard in Resources */,
+				D66BE8802283D07800EB6E92 /* Settings.storyboard in Resources */,
 				D608EA5D22822B2900BC243A /* Crab.xcassets in Resources */,
 				D608EA6622823A7600BC243A /* Questions.md in Resources */,
 				D608EA5222822A6C00BC243A /* Assets.xcassets in Resources */,
@@ -229,6 +241,14 @@
 				D608EA5422822A6C00BC243A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D66BE87C2283D05900EB6E92 /* Game.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66BE87D2283D05900EB6E92 /* Base */,
+			);
+			name = Game.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
